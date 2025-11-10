@@ -16,11 +16,12 @@ Flow:
 User Input — Photo or text query from Android app
 Service Layer — Routes query through security whitelist
 RAG Fusion — Combines results from:
-PDF/Text Indexer: SentenceTransformer + FAISS
-Image Indexer: CLIP embeddings + FAISS
+  PDF/Text Indexer: SentenceTransformer + FAISS
+  Image Indexer: CLIP embeddings + FAISS
 Web Search (CSE): Fetches relevant pages from trusted domains
 Fusion Layer: Merges all sources and runs safety checks
 Response: Returns structured repair suggestions
+
 
 Future Work
 
