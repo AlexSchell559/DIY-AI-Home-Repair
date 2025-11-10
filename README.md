@@ -13,19 +13,19 @@ Key Features
 System Architecture
 
 Flow:
-User Input — Photo or text query from Android app
-Service Layer — Routes query through security whitelist
-RAG Fusion — Combines results from:
-  PDF/Text Indexer: SentenceTransformer + FAISS
-  Image Indexer: CLIP embeddings + FAISS
-Web Search (CSE): Fetches relevant pages from trusted domains
-Fusion Layer: Merges all sources and runs safety checks
-Response: Returns structured repair suggestions
+- User Input — Photo or text query from Android app
+- Service Layer — Routes query through security whitelist
+- RAG Fusion — Combines results from:
+  - PDF/Text Indexer: SentenceTransformer + FAISS
+  - Image Indexer: CLIP embeddings + FAISS
+- Web Search (CSE): Fetches relevant pages from trusted domains
+- Fusion Layer: Merges all sources and runs safety checks
+- Response: Returns structured repair suggestions
 
 
 Future Work
 
-Add voice interface (TTS/STT)
-Deploy a demo app on HuggingFace or Streamlit
-Improve error handling and user feedback
-Introduce evaluation metrics for retrieval relevance
+- Add voice interface (TTS/STT)
+- Deploy a demo app on HuggingFace or Streamlit
+- Improve error handling and user feedback
+- Introduce evaluation metrics for retrieval relevance
